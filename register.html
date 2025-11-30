@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Register — College Fest 2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="hero"><div class="wrap"><h1>Register for Events</h1></div></header>
+  <nav class="sidebar" aria-label="Main navigation">
+    <a href="index.html">🏠 Home</a>
+    <a href="events.html">🎭 Events</a>
+    <a href="schedule.html">📅 Schedule</a>
+    <a href="register.html">📝 Register</a>
+    <a href="gallery.html">📸 Gallery</a>
+    <a href="contact.html">📞 Contact</a>
+  </nav>
+
+  <main class="container">
+    <section class="card">
+      <h2>Participant Registration</h2>
+      <form class="register-form" action="#" method="post" novalidate>
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" required placeholder="Your full name">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+        <label for="event">Select event</label>
+        <select id="event" name="event" required>
+          <option value="">-- choose --</option>
+          <option>Dance Battle</option>
+          <option>Debate Competition</option>
+          <option>Hackathon</option>
+          <option>Photography</option>
+          <option>Cricket</option>
+        </select>
+
+        <label for="notes">Notes (optional)</label>
+        <textarea id="notes" name="notes" rows="4" placeholder="Team members, college etc."></textarea>
+
+        <input type="submit" value="Submit Registration">
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">&copy; 2025 Thapar Fest</footer>
+</body>
+</html>
